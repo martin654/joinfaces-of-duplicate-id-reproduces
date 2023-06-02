@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facelet-taglib version="2.3" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facelettaglibrary_2_3.xsd">
+  <namespace>http://xmlns.jcp.org/jsf/composite/test</namespace>
+
+  <tag>
+    <description>Actions is a wrapper for action commandButtons.</description>
+    <tag-name>actions</tag-name>
+    <source>actions.xhtml</source>
+    <attribute>
+      <description>
+        Optional. Set 'right' for right align. Default is left.
+      </description>
+      <name>align</name>
+      <required>false</required>
+      <type>java.lang.String</type>
+    </attribute>
+    <attribute>
+      <description>
+        Optional. ID is generated automatically when not defined.
+      </description>
+      <name>id</name>
+      <required>false</required>
+      <type>java.lang.String</type>
+    </attribute>
+    <attribute>
+      <description>
+        Optional. Set 'false' to disable rendering.
+      </description>
+      <name>rendered</name>
+      <required>false</required>
+      <type>java.lang.Boolean</type>
+    </attribute>
+  </tag>
+
+</facelet-taglib>
