@@ -1,0 +1,15 @@
+joinfaces:
+  jsf:
+    PROJECT_STAGE: Production
+    FACELETS_LIBRARIES: /tags/tags.taglib.xml
+  primefaces:
+    theme: overcast
+  version: @joinfaces.version@
+spring-boot:
+  version: @project.parent.version@
+tomcat:
+  version: @tomcat.version@
+jetty:
+  version: @jetty.version@
+undertow:
+  version: @undertow.version@
